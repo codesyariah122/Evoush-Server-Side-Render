@@ -1,0 +1,384 @@
+:root {
+  --color: #243746;
+  --color-profile: #fff;
+  --color-follower: #fff;
+  --color-primary: #158876;
+  --color-secondary: #0e2233;
+  --bg: #f3f5f4;
+  --bg-card: #f3f5f4;
+  --bg-secondary: #fff;
+  --border-color: #ddd;
+  --color-management: #fff;
+  --color-cookie: #fff;
+  --bg-cookie:#672011;
+  --bg-cookie-consent: #C5BCBB;
+}
+
+.dark-mode {
+  --color: #ebf4f1;
+  --color-profile:  #fff;
+  --color-follower:  #ebf4f1;
+  --color-dua: #000;
+  --color-primary: #41b38a;
+  --color-secondary: #fdf9f3;
+  --bg: #091a28;
+  --bg-card: #091a28;
+  --bg-secondary: #071521;
+  --border-color: #0d2538;
+  --color-management: #fff;
+  --bg-cookie-consent: #1F1031;
+  --bg-cookie: #A59191;
+  --color-cookie: #B7B5B7;
+}
+.sepia-mode {
+  --color: #433422;
+  --color-profile:  #fff;
+  --color-follower: #433422;
+  --color-secondary: #504231;
+  --bg: #f1e7d0;
+  --bg-card: #f1e7d0;
+  --bg-secondary: #eae0c9;
+  --border-color: #ded0bf;
+  --color-management: #fff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--bg);
+  color: var(--color);
+  transition: background-color 0.3s;
+}
+a {
+  color: var(--color-primary);
+}
+
+body h2{
+  color: var(--color)!important;
+}
+.mobile-nav-toggle i{
+  color: var(--color);
+}
+.underline:after{
+  content: '';
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  position: relative;
+  margin-bottom:2rem;
+  width: 100px;
+  height: 2px;
+  background:rgb(255, 99, 78);
+}
+
+.portfolio-details h2{
+  color:  var(--color-primary);
+}
+
+.portfolio-info h3{
+  color:  var(--color-primary);
+}
+
+.profile {
+  background-color: var(--color-dua);
+}
+
+
+.media-body h4{
+  color: var(--color-profile);
+}
+
+.media-body h5{
+  color: var(--color-dua);
+}
+.media-body p {
+  color: var(--color-secondary);
+}
+
+.tab-content blockquote{
+  color:  var(--color);
+  font-size:  23px;
+}
+
+.tab-content blockquote p {
+  color: var(--color);
+}
+
+#news h3{
+  color: var(--color);
+}
+
+#testimonials h3{
+  color: var(--color);
+}
+
+#pages .icon-box{
+  background-color: var(--bg-secondary);
+}
+
+#pages .icon-box h4 {
+  color: var(--color);
+}
+#pages .icon-box p{
+  color: var(--color-secondary);
+}
+
+.services .icon-box {
+  background-color: var(--bg-secondary);
+}
+
+
+.services .icon-box blockquote{
+  color: var(--color);
+}
+
+.services .icon-box .blockquote-footer p{
+  color: var(--color);
+}
+
+.icon-box ul, li {
+  color: var(--color);
+}
+
+.follower-card {
+  background-color: var(--color-dua);
+}
+
+.tab-pane h4{
+  color: var(--color);
+}
+
+.iconbox-blue h4{
+  color: var(--color);
+}
+.iconbox-blue p{
+  color: var(--color-dua);
+}
+
+.iconbox-blue blockquote{
+  color: var(--color-dua);
+}
+
+.iconbox-orange p{
+  color: var(--color-dua);
+}
+
+.iconbox-pink p{
+  color: var(--color-dua);
+}
+
+.blockquote-footer p {
+  color: var(--color-dua);
+}
+
+.iconbox-yellow p{
+  color: var(--color-dua);
+}
+
+.iconbox-red p{
+  color: var(--color-dua);
+}
+
+.iconbox-teal p{
+  color: var(--color-dua);
+}
+
+
+.contact .info{
+  background-color: var(--bg-secondary);
+}
+
+.contact .info h4{
+  color: var(--color);
+}
+
+.contact .php-email-form{
+  background-color: var(--bg-secondary);
+}
+
+.edit-form {
+  background-color: var(--bg-secondary);
+}
+.edit-form span{
+  color: var(--color);
+}
+
+
+.card-quran{
+  background-color: var(--bg-secondary);
+}
+
+.card-quran h5{
+  color: var(--color);
+}
+
+.profile-card-3 {
+  background-color: var(--bg-secondary);
+}
+
+.profile-card-3 h5{
+  color: var(--color);
+}
+
+.profile-card-3 p{
+  color: var(--color);
+}
+
+.profile-card-3 .card-title{
+  color: var(--color-secondary);
+}
+
+.card-content-yt{
+  background-color: var(--bg-secondary);
+}
+.card-content-yt::before{
+  background: var(--bg-secondary);
+}
+.card-content-yt i{
+  color: var(--color);
+}
+.card-content-yt blockquote{
+  color: var(--color);
+}
+
+.card-list-yt ul li{
+  background-color: var(--bg-secondary);
+}
+/*.profile-card-1 .profile{
+  background-color: var(--bg-secondary);
+}*/
+
+
+.cookie-consent {
+  background-color: var(--bg-cookie-consent);
+  color: var(--color-cookie);
+}
+
+.cookie-consent-message {
+  color: var(--color);
+}
+
+.cookie-consent-compliance{
+  background-color: var(--bg-cookie);
+  color: var(--color-dua);
+}
+
+.about .content h3{
+  color: var(--color);
+}
+
+.about .content h2{
+  color: var(--color-profile);
+}
+
+.list-group-shalat li {
+  color: var(--color-dua);
+}
+
+.modal-content .modal-body h2 {
+  color: var(--color-secondary);
+}
+
+.modal-content.modal-body blockquote{
+  color: var(--color-primary);
+}
+
+.modal-content.moda-body p{
+  color: var(--color-dua);
+}
+
+.collapse .card {
+  background: linear-gradient(to left, #F6ECEA, #C2C2C2);
+}
+.collapse .card-body p{
+  color: var(--color-dua);
+}
+
+.swal2-title {
+  color: var(--color-dua)!important;
+}
+
+.card-ongkir {
+  background-color: var(--bg-card);
+}
+
+.card-ongkir h4 {
+  color: var(--color-primary);
+}
+
+.card-ongkir h5 {
+  color: var(--color);
+}
+
+.list-group-movie li {
+  color: var(--color);
+  background: linear-gradient(to right, coral, salmon);
+}
+
+.card-asmaulhusna{
+  background-color: var(--bg);
+}
+
+.card-stockist{
+  background: linear-gradient(to left, coral, lightcoral);
+}
+
+.card-movie{
+  background: linear-gradient(to left, salmon, coral);
+}
+.card-jadwal-shalat {
+  background: linear-gradient(to left, coral, lightcoral);
+}
+.modal-content{
+  /*background: linear-gradient(to right, salmon, lightsalmon);*/
+  background-color: var(--bg-secondary);
+}
+.modal-content h5{
+  color: var(--color-profile);
+}
+.modal-body{
+  /*background: linear-gradient(to left, salmon, coral);*/
+  background-color: var(--bg);
+}
+.card-detail-movie {
+  /*background: linear-gradient(to right, coral, salmon);*/
+  background-color: var(--bg);
+}
+.card-youtube{
+  background-color: var(--bg-secondary);
+}
+
+/*.list-group{
+  background-color: var(--bg-secondary);
+  box-shadow: 15px 15px var(--color-dua);
+}*/
+
+.list-ongkir{
+  background-color: var(--bg-secondary);
+}
+
+
+.form-edit-profile {
+  background-color: var(--bg-secondary);
+}
+
+.list-group-covid{
+  background-color: var(--bg-secondary);
+}
+
+.vue-tel-input{
+  background-color: var(--bg-secondary)
+}
+
+.vti__dropdown-list .below{
+  background-color: var(--bg-secondary)
+}
+.vti__dropdown-item{
+  background-color: var(--bg-secondary)
+}
+
+.vti__dropdown-item .highlighted{
+  background-color: var(--bg-secondary)!important;
+}
+
+

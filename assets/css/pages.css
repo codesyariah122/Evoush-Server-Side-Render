@@ -1,0 +1,10 @@
+.__product-list li {
+	list-style: none;
+	padding: 5px;
+	text-transform: capitalize;
+	font-size: 23px;
+}
+
+.__product-list li img{
+	max-width: 250px;
+}
